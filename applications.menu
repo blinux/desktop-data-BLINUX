@@ -1,0 +1,21 @@
+ <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+        <Name>Blinux</Name>
+        <KDELegacyDirs/>
+        <DefaultAppDirs/>
+        <DefaultDirectoryDirs/>
+        <DefaultLayout inline="true" inline_limit="1">
+                <Merge type="menus"/>
+                <Merge type="files"/>
+        </DefaultLayout>
+
+        <Menu>
+                <Name>System</Name>
+                <Include>
+                        <Category>System</Category>
+                </Include>
+        </Menu>
+
+</Menu>
