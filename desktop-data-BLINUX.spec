@@ -24,7 +24,7 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 Name:           desktop-data-BLINUX
-Version:        2.0
+Version:        3.0
 Release:        0
 Summary:        Shared Desktop Files for BLINUX
 License:        BSD-2-Clause
@@ -61,5 +61,8 @@ install -D -m 644 %{SOURCE0} %{buildroot}/%{_sysconfdir}/xdg/menus/
 %config %{_sysconfdir}/xdg/menus/applications.menu
 
 %changelog
+* Mon Aug 03 2015 Emmanuel Vadot <elbarto@bocal.org> - 3.9
+- Update to 3.0
+
 * Wed Aug 06 2014 Emmanuel Vadot <elbarto@bocal.org> - 2.0
 - Package creation
